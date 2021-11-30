@@ -1,0 +1,170 @@
+a {
+  color: white;
+}
+.log {
+  padding-top: 0em !important;
+  padding-bottom: 1em !important;
+}
+.Name,
+.Price,
+.TotalPorProducto {
+  color: black;
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+}
+.TotalPorProducto {
+  text-indent: 25%;
+}
+.contenedorProductosEnCarro .Price {
+  text-indent: 25%;
+}
+#totalPrice {
+  background-color: rgb(239 154 154 / 0.3);
+  font-family: "Abel", sans-serif;
+  font-size: 23px;
+}
+#sobreNosotros {
+  font-size: 17px;
+}
+#carrito {
+  margin-right: 0.5em;
+  margin-top: 1em;
+}
+#account {
+  margin-right: 1em;
+  margin-top: 1em;
+}
+#sobreNosotros,
+#contactBoton {
+  margin-top: 0.5em;
+}
+#movileText {
+  color: black !important;
+}
+#contador {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  right: 1.5em;
+  bottom: 0.5em;
+}
+
+.input-field {
+  top: 5px;
+  margin-right: 2em;
+}
+.container {
+  padding: 0.5em;
+}
+.material-icons {
+  font-size: 26px;
+}
+#logoImg {
+  margin-top: 5px;
+  max-width: 2.3em;
+}
+#logoImgMovile {
+  margin-top: 9px;
+  max-width: 1.3em;
+}
+
+#logo {
+  margin-top: 5px;
+  margin-left: 1em;
+  font-family: "Poiret One";
+  font-size: 37px;
+}
+#nav {
+  margin-bottom: 0em;
+  height: 11vh;
+}
+.card-content {
+  opacity: 0.9;
+}
+.navegador {
+  margin-top: 3em;
+  margin-bottom: 5px !important;
+}
+.productosEnCarroMask {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 300vh;
+  background-color: black;
+  opacity: 0.6;
+}
+#productosEnCarro {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  width: 500px;
+  min-height: 100vh;
+}
+.contenedorCardCarro {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+#iconoP {
+  max-width: 2em;
+}
+.contenedorProductosEnCarro {
+  top: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 2em;
+  grid-auto-rows: auto;
+}
+.filaEnCarro {
+  display: list-item;
+}
+.sidenav {
+  width: 350px !important;
+}
+#contenedorAccount {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: left;
+  align-items: center;
+  margin-top: 0 !important;
+}
+#contenedorAccount #account {
+  margin-top: 0 !important;
+  font-size: 30px;
+}
+#nombreUsuario {
+  font-size: 20px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+#logoMovile {
+  font-size: 24px;
+  margin-left: 0.5em;
+  font-family: "Poiret One", cursive;
+}
+.formMobile {
+  margin-left: 1em;
+}
+.contenedorBotones {
+  background-color: white;
+}
+#InstaIcon {
+  margin-right: 0.6em;
+  width: 1.6em;
+}
+footer ul a i {
+  margin-right: 0.3em;
+  text-align: center;
+}
+.gracias {
+  font-size: 40px;
+  font-family: "Abel", sans-serif;
+  margin-top: 1em;
+}
+footer img {
+  max-width: 4em;
+}
